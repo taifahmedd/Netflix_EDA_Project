@@ -1,52 +1,42 @@
 # Netflix_EDA_Project
 
-Netflix EDA — Exploratory Data Analysis with Python (Branded in Netflix Red Theme)
+## 📘 Project Overview
 
-This project explores the Netflix Titles Dataset and uncovers insights about:
-
-✅ Movies vs TV Show Distribution
-
-📈 Release Trend Over the Years
-
-🌍 Top Content-Producing Countries
-
-🎭 Most Popular Genres
-
-⭐ Rating-wise Breakdown (U, PG, TV-MA, etc.)
-
-
-All visualizations are styled using Netflix’s Original Red Color (#E50914) for consistent branding.
+This project performs *Exploratory Data Analysis (EDA)* on Netflix Movies and TV Shows dataset.  
+It focuses on cleaning, exploring, visualizing, and deriving insights from the dataset to understand content distribution, trends, and patterns on Netflix.
 
 ---
 
-📂 Tech Stack
+## 🎯 Objectives
 
-Python
-
-Pandas
-
-Matplotlib
-
-Data Cleaning & Feature Engineering
-
----
-
-🚀 How to Run
-
-pip install pandas matplotlib
-python netflix_eda.py
+- Assess dataset quality and structure  
+- Handle missing values and inconsistencies  
+- Explore content patterns by *genre, **release year, and **country*  
+- Analyze content *duration* (movies vs. TV shows) and *ratings*  
+- Identify top *directors* and *actors*  
+- Examine trends in content addition over time  
+- Discover meaningful correlations and actionable insights  
 
 ---
 
-📌 Future Improvements
+## 🗂 Dataset
 
-Add WordCloud of Titles
-
-Build Dashboard version using Streamlit / PowerBI
-
-Deploy Interactive Web App
+- *File:* netflix_titles.csv  
+- *Description:* Metadata of Netflix Movies and TV Shows  
+- *Key Columns:*  
+  - show_id  
+  - type (Movie / TV Show)  
+  - title  
+  - director  
+  - cast  
+  - country  
+  - date_added  
+  - release_year  
+  - rating  
+  - duration  
+  - listed_in (Genre)  
+  - description  
 
 ---
 
-If you like this repo — ⭐ Star it & connect on LinkedIn!
-
+## 🛠 Project Structure
