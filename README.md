@@ -39,4 +39,27 @@ It focuses on cleaning, exploring, visualizing, and deriving insights from the d
 
 ---
 
+## 📂 Tech Stack
+
+  - Python
+  - Pandas
+  - Matplotlib
+
+Data Cleaning & Feature Engineering
+
+---
+
+## 🚀 How to Run
+
+pip install pandas matplotlib
+python netflix_eda.py
+
+---
+
+## 📌 Future Improvements
+
+  - Add WordCloud of Titles
+  - Build Dashboard version using Streamlit / PowerBI
+  - Deploy Interactive Web App
+
 ## 🛠 Project Structure
